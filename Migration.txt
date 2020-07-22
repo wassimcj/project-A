@@ -1,0 +1,28 @@
+Migration 
+
+
+wassi@DESKTOP-JII6C0K MINGW64 /c/xampp/htdocs/myfirstapp/lsapp
+$ php artisan migrate
+Migrating: 2020_07_18_185122_create_partners_table
+Migrated:  2020_07_18_185122_create_partners_table (0.2 seconds)
+
+wassi@DESKTOP-JII6C0K MINGW64 /c/xampp/htdocs/myfirstapp/lsapp
+$ php artisan make:migration create_cities_table
+Created Migration: 2020_07_18_185733_create_cities_table
+
+wassi@DESKTOP-JII6C0K MINGW64 /c/xampp/htdocs/myfirstapp/lsapp
+$ php artisan migrate
+Migrating: 2020_07_18_185733_create_cities_table
+Migrated:  2020_07_18_185733_create_cities_table (0.43 seconds)
+
+wassi@DESKTOP-JII6C0K MINGW64 /c/xampp/htdocs/myfirstapp/lsapp
+$ php artisan make:migration create_delivery_time_table
+Created Migration: 2020_07_18_185808_create_delivery_time_table
+
+wassi@DESKTOP-JII6C0K MINGW64 /c/xampp/htdocs/myfirstapp/lsapp
+$ php artisan migrate
+Migrating: 2020_07_18_185808_create_delivery_time_table
+Migrated:  2020_07_18_185808_create_delivery_time_table (0.25 seconds)
+
+wassi@DESKTOP-JII6C0K MINGW64 /c/xampp/htdocs/myfirstapp/lsapp
+$
